@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+.mainApp {
+    margin-top: 5vh;
+}
+
+.btnActive {
+    width: 50%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    margin-left: 23vw;
+    margin-top: 40vh;
+}
+
+.progress {
+    width: 80%;
+    height: 3vh;
+    margin-top: 8vh;
+    margin-left: 10vw;
+    border-radius: 1en  solid 5px;
+    border: 0;
+}
+
+progress::-moz-progress-bar { background: silver; color: white; }
+progress::-webkit-progress-value { background: silver; color: white;}
+progress { color: silver; }
+
+#checkboxRun {
+    margin-top: 2vh;
+    margin-left: 20vw;
+}
+
+#checkboxRealtime{
+    margin-top: 2vh;
+    margin-left: 15vw;
+}
+
+.quarantine {
+     margin-top: 5vh;
+     margin-left: 35vw;
+}
+
+.btnScannow {
+    width: 50%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    margin-left: 23vw;
+    margin-top: 5vh;
+}
+
+
+.lastclean {
+     margin-top: 20vh;
+     margin-left: 35vw;
+}
+
+
+.btnClearn {
+    width: 50%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    margin-left: 23vw;
+    margin-top: 5vh;
+}

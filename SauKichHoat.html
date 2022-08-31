@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link href="./styles.css" rel="stylesheet">
+    <title>Tool Clearning!</title>
+  </head>
+  <body>
+    <!-- <h1>Hello World!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>. -->
+
+<div class="mainApp">
+  <progress max="100" value="50" class="progress"></progress>
+    <br/>
+    <div class="ChangeColorCB">
+      <input type="checkbox" id="checkboxRun" value="Run auto scan each 6 hours" checked ><label>Run auto scan each 6 hours</label><input type="checkbox" id="checkboxRealtime" checked ><label>Real time detection</label>
+    </div>
+    <br/>
+    <a href="#" class="quarantine">Quarantine file New(1) total (3)</a>
+    <br/>
+    <button class="btnScannow" id="btnEd" onclick="getData();">SCAN NOW</button>
+    <br/>
+     <progress max="100" value="50" class="progress"></progress>
+    <br/>
+    <br/>
+    <a href="#" class="lastclean">Last clean date: 1  Feb 2023</a>
+    <br/>
+    <button class="btnClearn">CLEARN SYSTEM NOW</button>
+</div>
+    
+
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
